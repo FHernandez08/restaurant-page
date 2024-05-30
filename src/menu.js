@@ -5,7 +5,7 @@ function menuSection() {
     <div class="menu-container">
         <h2>Menu</h2>
 
-        <div class="drinks-table">
+        <div class="table drinks-table">
             <p id="table-header">Drinks</p>
             <table>
                 <tr>
@@ -27,7 +27,7 @@ function menuSection() {
             </table>
         </div>
     
-        <div class="apps-table">
+        <div class="table apps-table">
             <p id="table-header">Appetizers</p>
             <table>
                 <tr>
@@ -49,7 +49,7 @@ function menuSection() {
             </table>
         </div>
 
-        <div class="entrees-table">
+        <div class="table entrees-table">
             <p id="table-header">Entrees</p>
             <table>
                 <tr>
@@ -75,7 +75,7 @@ function menuSection() {
             </table>
         </div>
 
-        <div class="dessert-table">
+        <div class="table dessert-table">
             <p id="table-header">Desserts</p>
             <table>
                 <tr>

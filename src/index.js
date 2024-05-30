@@ -1,3 +1,5 @@
+import './style.css';
+
 // tab-switching logic
 import { homePage } from "./home";
 import { aboutSection } from "./about";
