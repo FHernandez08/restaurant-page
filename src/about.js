@@ -13,10 +13,10 @@ function aboutSection() {
         </section>
         <div class="questionaire">
             <div class="question-one">
-                <p><b>
+                <p class="question"><b>
                     What makes the burgers at The Fudd Burgers special compared to other burger joints?
                 </b></p>
-                <p>
+                <p class="question-answer">
                     At The Fudd Burgers, our burgers stand out because we use only the freshest, locally-sourced ingredients, including
                     premium quality beef and artisanal buns. Our culinary team crafts each burger with care, ensuring a perfect balance of
                     flavors and textures. Additionally, we offer a variety of unique toppings and house-made sauces that you won't find
@@ -24,10 +24,10 @@ function aboutSection() {
                 </p>
             </div>
             <div class="question-two">
-                <p><b>
+                <p class="question"><b>
                     Are there any special deals or events that I should know about?
                 </b></p>
-                <p>
+                <p class="question-answer">
                     Yes, we love to treat our customers with special deals and events! We have weekly specials, including discounts on
                     certain burgers and combo meals. Additionally, we host fun events like trivia nights, live music, and burger-eating
                     contests. Be sure to follow us on social media and check our website regularly to stay updated on all the latest

@@ -56,108 +56,251 @@ body {
     width: 100%;
     height: 100%;
 
-    background-image: url(background-main.jpg);
+    font-family: 'my-font', serif;
+
+    background-image: url(images/dark-surface-with-blank-space-fast-food-menu.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
-    font-family: 'my-font', serif;
 }
 
 /* main header styling */
+header {
+  display: flex;
+  flex-direction: row;
+  align-content: baseline;
+
+  padding-top: 20px;
+  gap: 250px;
+}
+
+.main-logo {
+  width: 100px;
+  height: 100px;
+
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #fffdd0;
+  padding-left: 125px;
+}
+
 nav {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
 
     gap: 50px;
-
-    padding-top: 20px;
 }
 
 nav button {
     width: 100px;
     height: 50px;
 
-    border-style: none;
+    border: none;
     border-radius: 10px;
-    
 
-    background-color: #ffffff;
+    background-color: #fffdd0;
     color: #000000;
 }
 
-/* homepage section styling */
+/* home section */
 .home-container {
-    height: 100%;
-    width: 100%;
+  width: 1000px;
+  height: 100%;
 
-    color: #ffffff;
+  padding-top: 30px;
 }
 
-.home-container h1 {
-    text-align: center;
-    font-size: 42px;
-    padding-top: 10px;
+.home-container .heading {
+  font-size: 75px;
+  color: #ffffff;
+  
+  padding-left: 25%;
+  text-decoration: underline;
+  font-style: italic;
 }
 
-/* about section styling */
+.quotes {
+  padding-left: 225px;
+  padding-top: 50px;
+}
+
+.quote-heading {
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.articles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  gap: 20px;
+
+  color: #ffffff;
+}
+
+.quote-one,
+.quote-two {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  border: #ffffff solid;
+  padding: 25px;
+  
+  text-align: center;
+}
+
+.hours {
+  position: absolute;
+  left: 25%;
+
+  padding-top: 100px;
+}
+
+.business-hours {
+  font-size: 24px;
+  text-decoration: underline;
+  color: #4169e1;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.time-one,
+.time-two {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+/* about-section */
 .about-container {
-    height: 100%;
-    width: 100%;
+  width: 70%;
+  height: 100%;
 
-    color: #ffffff;
+  padding: 50px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
 
 .about-container h2 {
-    text-align: center;
-    font-size: 42px;
-    padding-top: 10px;
+  text-align: center;
+  font-size: 36px;
+  color: #98fb98;
 }
 
+section h4 {
+  padding-left: 25%;
+  color: #98fb98;
+  font-weight: bold;
+  font-size: 24px;
+}
 
+section p {
+  padding-bottom: 25px;
+}
 
-/* menu section styling */
+section p,
+.question-answer {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.questionaire {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.question {
+  color: #f5f5dc;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+/* menu section */
 .menu-container {
-    height: 100%;
-    width: 100%;
+  width: 70%;
+  height: 100%;
 
-    color: #ffffff;
+  padding: 50px;
 }
 
 .menu-container h2 {
-    text-align: center;
-    font-size: 42px;
-    padding-top: 10px;
+  text-align: center;
+  font-size: 36px;
+  color: #98fb98;
+  padding-bottom: 50px;
 }
 
-.table {
-    display: grid;
-    grid-template-columns: 1 / 1 / 1 / 1;
-    grid-template-rows: 1;
-
-    justify-content: center;
-    align-items: center;
-
-    padding: 20px;
+.tables {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+  grid-template-rows: 1fr;
 }
 
 #table-header {
-    text-align: center;
-    font-size: 26px;
-    font-weight: 700;
+  font-size: 24px;
+  color: #fffdd0;
+  font-weight: bold;
 }
 
-/* contact section styling */
-.contact-container {
-    height: 100%;
-    width: 100%;
 
-    color: #ffffff;
+
+table {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+/* contact section */
+.contact-container {
+  width: 70%;
+  height: 100%;
+
+  padding: 50px;
 }
 
 .contact-container h2 {
-    text-align: center;
-    font-size: 42px;
-    padding-top: 10px;
+  text-align: center;
+  font-size: 36px;
+  color: #98fb98;
+}
+
+.contact-container .description {
+  padding-left: 50px;
+  color: #f5f5dc;
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+
+.contact-container article {
+  display: flex;
+  flex-direction: row;
+
+  color: #ffffff;
+
+  gap: 50px;
+  padding: 25px;
+}
+
+article p {
+  text-decoration: underline;
+}
+
+#contact-info {
+  display: flex;
+  flex-direction: row;
+
+  gap: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }

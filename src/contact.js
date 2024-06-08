@@ -5,7 +5,7 @@ function contactSection() {
     <div class="contact-container">
         <h2>Contact</h2>
 
-        <p>These will be the best ways to contact us and give you a quick and accurate response.</p>
+        <p class="description">These will be the best ways to contact us and give you a quick and accurate response.</p>
 
         <article id="main-office">
             <p>Main Office</p>
